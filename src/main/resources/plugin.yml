@@ -1,0 +1,7 @@
+name: BlessBottleRNG
+version: '${version}'
+main: net.uku3lig.blessbottlerng.BlessBottleRNG
+api-version: 1.19
+authors: [ uku ]
+description: make xp bottles not random
+website: https://github.com/uku3lig/blessbottlerng
