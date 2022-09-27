@@ -18,7 +18,10 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot-api:1.13.2-R0.1-SNAPSHOT'
+    compileOnly 'com.google.guava:guava:31.1'
+    compileOnly 'org.yaml:snakeyaml:1.32'
+    testCompileOnly 'junit:junit:4.13.2'
 }
 
 def targetJavaVersion = 17
